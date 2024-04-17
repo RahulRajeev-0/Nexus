@@ -273,7 +273,7 @@ const Chat = () => {
         <>
         <Header>
             <HeaderLeft>
-                <h4><strong># {groupInfo.name}</strong></h4><StarBorderIcon/>
+                <h4><strong># {groupInfo.name}</strong></h4>
                <p>[{groupInfo.topic}]</p>
             </HeaderLeft>
             <HeaderRight>
@@ -317,7 +317,7 @@ const Chat = () => {
             </HeaderRight>
         </Header>
 
-        // In the Chat component
+       
 <ChatMessages>
   {/* Listing out the messages */}
   {chatMessages.map((chat, index) => (
@@ -355,10 +355,11 @@ const Header = styled.div`
     display:flex;
     justify-content: space-between;
     padding: 20px;
-    border-bottom:1px solid grey;
+    margin: 5px 15px;
+    
     color:white;
-    background:#3f3c42;
-    border-radius:5px;
+    background:#591DA9;
+    border-radius:20px;
    
     `;
 const HeaderLeft = styled.div`

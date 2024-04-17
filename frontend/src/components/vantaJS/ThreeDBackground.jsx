@@ -21,7 +21,7 @@ const ThreeDBackground = ({children}) => {
           minWidth: 200.00,
           scale: 1.00,
           scaleMobile: 1.00,
-          color: 0xefefef,
+          color: 0x8bff,
           backgroundColor: 0xffffff
         })
       );

@@ -158,7 +158,7 @@ ASGI_APPLICATION = 'backend.asgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'teamstudy',
+        'NAME': 'nexus',
         'USER':'postgres',
         'PASSWORD': 'rahul',
         'HOST': 'localhost',
@@ -228,8 +228,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'ravanan0908@gmail.com' # EMAIL
-EMAIL_HOST_PASSWORD = "qsyz duay caoi wuir" # PASSWORD
+EMAIL_HOST_USER = 'chatnexus28@gmail.com' # EMAIL
+EMAIL_HOST_PASSWORD = 'axpl fuak cwyu ujsp' # PASSWORD
 
 
 CORS_ORIGIN_ALLOW_ALL = True

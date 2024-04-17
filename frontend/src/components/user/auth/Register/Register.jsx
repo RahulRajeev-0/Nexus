@@ -167,7 +167,7 @@ const Register = () => {
                 <div className="row justify-content-center">
                   <div className="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
-                    <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4" style={{color:'violet'}}>Sign Up</p>
+                    <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4" style={{color:'blue'}}>Sign Up</p>
                     <p className='text-center'>We suggest using the email address that you use for work </p>
                     
 
@@ -243,6 +243,7 @@ const Register = () => {
                     <img
                       src={Icon}
                       className="img-fluid"
+                      style={{ width: '200px', height: 'auto', marginLeft:'200px'}} // Adjust width as needed
                       alt="Sample image"
                       />
                   </div>

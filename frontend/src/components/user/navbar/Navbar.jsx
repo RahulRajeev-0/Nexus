@@ -75,8 +75,11 @@ const Navbar = ({onCreateWorkspaceSuccess}) => {
   }
   return (
     <>
-    <nav  className='NavbarItems'>
-      <img  src={Icon} style={{paddingLeft:"8px"}} height={60} width={220} alt='Icon' ></img>
+    <nav  className='NavbarItems'><span style={{display:'flex'}}>
+
+      <img  src={Icon} style={{paddingLeft:"8px" }} height={60} width={70} alt='Icon' ></img>
+      <h1 style={{paddingLeft:'20px'}}>Nexus</h1>
+    </span>
 
      
       <div onClick={handleClick} className='menu-icons'>

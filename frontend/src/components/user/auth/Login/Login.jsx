@@ -144,8 +144,8 @@ const Login = () => {
           <div className="card-body p-md-5">
             <div className="row justify-content-center">
               <div className="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
-                <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4 bg-white" style={{ color: 'violet' }}>Log In</p>
-                <p className='text-center bg-white'>We suggest using the email address that you use for work</p>
+                <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4" style={{ color: 'blue',  }}>Log In</p>
+                <p className='text-center '>We suggest using the email address that you use for work</p>
                 <form onSubmit={handleSubmit} className="mx-1 mx-md-4">
                   <div className="d-flex flex-row align-items-center mb-4">
                     <FontAwesomeIcon icon={faEnvelope} className="fa-lg me-3 fa-fw" />
@@ -181,11 +181,13 @@ const Login = () => {
                 </form>
               </div>
               <div className="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-                <img
-                  src={Icon}
-                  className="img-fluid"
-                  alt="Sample image"
-                />
+              <img
+  src={Icon}
+  className="img-fluid"
+  alt="Sample image"
+  style={{ width: '200px', height: 'auto', marginLeft:'200px'}} // Adjust width as needed
+/>
+<h1>Nexus</h1>
               </div>
             </div>
           </div>
