@@ -33,6 +33,7 @@ urlpatterns = [
     path('workspace/', include('workspaces.api.urls')),
     path('group/', include('group_chats.api.urls')),
     path('dm/', include('dm_chats.api.urls')),
+    path('chatbot/', include('chatbot.api.urls')),
     
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -22,8 +22,8 @@ const GroupVideoCall = () => {
     useEffect(() => {
         const MyVideoCallMeet = async () => { 
             try {
-                const appID = 1921400802;
-                const serverSecret = "cc93b5ec5438b90b2390c44f469d08b6";
+                const appID = 1756051792;
+                const serverSecret = "1113bf2e9c2d101feea5cab9441cc84a";
                 const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest( 
                     appID,
                     serverSecret,

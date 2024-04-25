@@ -25,7 +25,7 @@ const WorkspaceBody = styled.div`
   display: flex;
   height: 100vh;
   
-  background:#282626;
+  background:#283041;
   
   
   

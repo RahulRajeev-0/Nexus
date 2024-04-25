@@ -31,6 +31,7 @@ import OneOnOneVideoCall from '../../components/user/OneOnOneVideo/ZegoVideoCall
 import OneOnOneAudioCall from "../user/OneOnOneAudio/ZegoAudioCall";
 import GroupVideoCall from "../user/GroupCalls/GroupVideoCall";
 import GroupAudioCall from "../user/GroupCalls/GroupAudioCall";
+import ChatBotPage from '../../pages/user/chatBot/ChatBotPage'
 
 // google Oauth 
 import { GoogleOAuthProvider } from '@react-oauth/google';
@@ -170,6 +171,7 @@ function UserWrapper() {
         <Route path='/one-to-one-audio/:roomId' element={<PrivateRoutes> <OneOnOneAudioCall/> </PrivateRoutes>} />
         <Route path='/group-video/:roomId' element={<PrivateRoutes><GroupVideoCall/> </PrivateRoutes>} />
         <Route path='/group-audio/:roomId' element={<PrivateRoutes> <GroupAudioCall/> </PrivateRoutes>} />
+        <Route path='/chat-bot' element={<PrivateRoutes><ChatBotPage/></PrivateRoutes>} />
     </Routes>
         </GoogleOAuthProvider>
    )

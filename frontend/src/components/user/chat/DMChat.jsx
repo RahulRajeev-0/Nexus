@@ -257,11 +257,12 @@ padding-top:100px`;
 const Header = styled.div`
     display:flex;
     justify-content: space-between;
-    padding: 20px;
-    border-bottom:1px solid grey;
+    
     color:white;
-    background:#3f3c42;
-    border-radius:5px;
+    background:#591DA9;
+    border-radius:20px;
+    padding: 20px;
+    margin: 5px 3px;
     position: fixed;
     width: 78%;
     // padding-bottom:200px;

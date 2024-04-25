@@ -9,7 +9,7 @@ import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import LogoutIcon from '@mui/icons-material/Logout';
 import GroupIcon from '@mui/icons-material/Group';
 import MessageIcon from '@mui/icons-material/Message';
-
+import Button from '@mui/material/Button';
 
 import SettingsIcon from '@mui/icons-material/Settings';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -110,6 +110,8 @@ const WorkSpaceSideBar = () => {
 <ChannelAccordion/>
 <hr/>
 <DMAccordion/>
+<hr/>
+<Button variant='contained'm onClick={()=>navigate('/chat-bot')} color="secondary">Chat with Nexus Ai</Button>
 <hr/>
 
     </SidebarContainer>
